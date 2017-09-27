@@ -1,0 +1,39 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class navigationController : MonoBehaviour {
+
+    private NavigationModel navigationModel;
+
+	// Use this for initialization
+	void Start () {
+        navigationModel = new NavigationModel();
+	}
+	
+	// Update is called once per frame
+	void Update () {
+        return navigationModel;
+	}
+
+    //Methods for directions
+    void forward()
+    {
+        
+    }
+
+    void backwards()
+    {
+        
+    }
+
+    void left()
+    {
+
+    }
+
+    void right()
+    {
+
+    }
+}
